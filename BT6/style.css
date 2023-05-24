@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.information{
+    width: 800px;
+    height: 400px;
+    margin: 50px auto;
+}
+
+h4{
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+.inp-infor{
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    width: 380px;
+    padding: 10px;
+}
+
+.subject{
+    margin: 10px 0px;
+    width: 100%
+}
+
+.btn-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_sub{
+    width: 120px;
+    border-radius: 3px;
+    background-color: aqua;
+    border: none;
+    color: white;
+}

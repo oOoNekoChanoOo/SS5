@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Bài tập 5</title>
+</head>
+<body>
+    <div class="information">
+        <form action="" method="post">
+            <div class="get-inf">
+                <div class="inp-infor" >
+                    <input type="text"  placeholder="First Name">
+                    <input type="text"  placeholder="Last Name">
+                </div>
+                <div class="inp-infor" >
+                    <input type="text"  placeholder="Your Email">
+                    <input type="text"  placeholder="Your Phone">
+                </div>
+                <div class="inp-infor" >
+                   <input list="country" placeholder="Slect Country">
+                        <datalist name="country" id="country">
+                            <option value="Viet Nam"></option>
+                            <option value="USA"></option>
+                            <option value="JAPAN"></option>
+                        </datalist>
+                    <input list="course" placeholder="Slect Course">
+                         <datalist name="course" id="course">
+                            <option value="AI"></option>
+                            <option value="Web"></option>
+                            <option value="Java"></option>
+                         </datalist>       
+                </div>
+            </div>
+
+            <div class="content">
+                <textarea cols="98" rows="10" placeholder="Content"></textarea>
+            </div>
+            <input type="submit" value="Submit" class="btn_sub">
+        </form>
+    </div>
+</body>
+</html>

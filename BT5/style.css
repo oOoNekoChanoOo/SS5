@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.information{
+    width: 800px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: rgb(242,243,245);
+    text-align: center;
+}
+
+input{
+    width: 350px;
+    height: 50px;
+    color: silver;
+    border: none;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.inp-infor{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content{
+    margin-top: 20px;
+    
+}
+
+.btn_sub{
+    background-color: black;
+    width: 720px;
+}
